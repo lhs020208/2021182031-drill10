@@ -15,7 +15,7 @@ FRAMES_PER_ACTION = 8
 class Bird:
     image = None
 
-    def __init__(self, x = 400, y = 300):
+    def __init__(self, x, y):
         if Bird.image == None:
             Bird.image = load_image('bird_animation.png')
         self.x, self.y = x, y

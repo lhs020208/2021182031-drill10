@@ -29,7 +29,7 @@ def init():
     boy = Boy()
     game_world.add_object(boy, 1)
 
-    birds = [Bird(x=200, y=50 + i * 50) for i in range(10)]
+    birds = [Bird(x=400, y=50 + i * 50) for i in range(10)]
 
     for bird in birds:
         game_world.add_object(bird, 1)
